@@ -9,9 +9,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-04-15T11:08:46+00:00\n"
+"POT-Creation-Date: 2025-05-28T12:15:51+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.11.0\n"
+"X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: riverbank\n"
 
 #. Theme Name of the theme
@@ -41,6 +41,7 @@ msgstr ""
 
 #. translators: %s message to upgrade PHP to the latest version
 #: functions.php:53
+#, php-format
 msgid "Hey, we've noticed that you're running an outdated version of PHP which is no longer supported. Make sure your site is fast and secure, by %1$s. Riverbank's minimal requirement is PHP%2$s."
 msgstr ""
 
@@ -50,60 +51,71 @@ msgstr ""
 
 #. translators: %s: commands to run the theme
 #: functions.php:106
+#, php-format
 msgid "You appear to be running the Riverbank theme from source code. Please finish installation by running %s."
 msgstr ""
 
-#: inc/Admin.php:63
+#: inc/Admin.php:64
 msgid "Dismiss"
 msgstr ""
 
-#: inc/Admin.php:64
+#: inc/Admin.php:65
 msgid "Riverbank recommends"
 msgstr ""
 
-#: inc/Admin.php:65
-#: inc/Admin.php:186
+#: inc/Admin.php:66
+#: inc/Admin.php:187
 msgid "Learn More"
 msgstr ""
 
 #. translators: %s: FSE Design Pack:
-#: inc/Admin.php:68
+#: inc/Admin.php:69
+#, php-format
 msgid "%s Access a collection of 40+ layout patterns ready to import to your website"
 msgstr ""
 
-#: inc/Admin.php:149
+#: inc/Admin.php:150
 msgid "Activating"
 msgstr ""
 
-#: inc/Admin.php:150
+#: inc/Admin.php:151
 msgid "Installing"
 msgstr ""
 
-#: inc/Admin.php:151
+#: inc/Admin.php:152
 msgid "Done"
 msgstr ""
 
-#: inc/Admin.php:159
+#: inc/Admin.php:160
 msgid "Otter Blocks preview"
 msgstr ""
 
 #. translators: %s: Otter Blocks
-#: inc/Admin.php:165
+#: inc/Admin.php:166
+#, php-format
 msgid "Power up your website building experience with %s!"
 msgstr ""
 
-#: inc/Admin.php:169
+#: inc/Admin.php:170
 msgid "Otter is a Gutenberg Blocks page builder plugin that adds extra functionality to the WordPress Block Editor (also known as Gutenberg) for a better page building experience without the need for traditional page builders."
 msgstr ""
 
 #. translators: %s: Otter Blocks
-#: inc/Admin.php:179
+#: inc/Admin.php:180
+#, php-format
 msgid "Activate %s"
 msgstr ""
 
 #. translators: %s: Otter Blocks
-#: inc/Admin.php:181
+#: inc/Admin.php:182
+#, php-format
 msgid "Install & Activate %s"
+msgstr ""
+
+#. translators: %1$s - plugin name, %2$s - HTML tag, %3$s - discount.
+#: inc/Admin.php:355
+#, php-format
+msgid "Enhance %1$s with %2$s– up to %3$s OFF in our biggest sale of the year. Limited time only."
 msgstr ""
 
 #: inc/Block_Patterns.php:62
@@ -274,89 +286,64 @@ msgstr ""
 msgid "Full-width section with covers and text"
 msgstr ""
 
-#: styles/blue-river.json
-msgctxt "Style variation name"
-msgid "Blue River"
-msgstr ""
-
+#: theme.json
 #: styles/blue-river.json
 #: styles/dark-orange.json
 #: styles/deep-emerald.json
 #: styles/eco-friendly.json
 #: styles/light-orange.json
-#: theme.json
 msgctxt "Color name"
 msgid "Background"
 msgstr ""
 
+#: theme.json
 #: styles/blue-river.json
 #: styles/dark-orange.json
 #: styles/deep-emerald.json
 #: styles/eco-friendly.json
 #: styles/light-orange.json
-#: theme.json
 msgctxt "Color name"
 msgid "Foreground"
 msgstr ""
 
+#: theme.json
 #: styles/blue-river.json
 #: styles/dark-orange.json
 #: styles/deep-emerald.json
 #: styles/eco-friendly.json
 #: styles/light-orange.json
-#: theme.json
 msgctxt "Color name"
 msgid "Background Alt"
 msgstr ""
 
+#: theme.json
 #: styles/blue-river.json
 #: styles/dark-orange.json
 #: styles/deep-emerald.json
 #: styles/eco-friendly.json
 #: styles/light-orange.json
-#: theme.json
 msgctxt "Color name"
 msgid "Background Dark"
 msgstr ""
 
+#: theme.json
 #: styles/blue-river.json
 #: styles/dark-orange.json
 #: styles/deep-emerald.json
 #: styles/eco-friendly.json
 #: styles/light-orange.json
-#: theme.json
 msgctxt "Color name"
 msgid "Foreground Alt"
 msgstr ""
 
+#: theme.json
 #: styles/blue-river.json
 #: styles/dark-orange.json
 #: styles/deep-emerald.json
 #: styles/eco-friendly.json
 #: styles/light-orange.json
-#: theme.json
 msgctxt "Color name"
 msgid "Accent"
-msgstr ""
-
-#: styles/dark-orange.json
-msgctxt "Style variation name"
-msgid "Dark Orange"
-msgstr ""
-
-#: styles/deep-emerald.json
-msgctxt "Style variation name"
-msgid "Deep Emerald"
-msgstr ""
-
-#: styles/eco-friendly.json
-msgctxt "Style variation name"
-msgid "Eco-friendly"
-msgstr ""
-
-#: styles/light-orange.json
-msgctxt "Style variation name"
-msgid "Light Orange"
 msgstr ""
 
 #: theme.json
@@ -422,4 +409,29 @@ msgstr ""
 #: theme.json
 msgctxt "Template part name"
 msgid "Footer"
+msgstr ""
+
+#: styles/blue-river.json
+msgctxt "Style variation name"
+msgid "Blue River"
+msgstr ""
+
+#: styles/dark-orange.json
+msgctxt "Style variation name"
+msgid "Dark Orange"
+msgstr ""
+
+#: styles/deep-emerald.json
+msgctxt "Style variation name"
+msgid "Deep Emerald"
+msgstr ""
+
+#: styles/eco-friendly.json
+msgctxt "Style variation name"
+msgid "Eco-friendly"
+msgstr ""
+
+#: styles/light-orange.json
+msgctxt "Style variation name"
+msgid "Light Orange"
 msgstr ""
