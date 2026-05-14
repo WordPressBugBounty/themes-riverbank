@@ -1,0 +1,1 @@
+jQuery(document).ready((n=>{n(".wp-block-navigation-submenu__toggle").on("click",(function(){n(this).parent("li").toggleClass("is-submenu-open")}))}));
