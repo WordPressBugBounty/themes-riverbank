@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'codeinwp/riverbank',
-        'pretty_version' => 'v1.0.17',
-        'version' => '1.0.17.0',
-        'reference' => '28853a91d7ec6c7ac70a285040e69b65e5d6b1d7',
+        'pretty_version' => 'v1.0.18',
+        'version' => '1.0.18.0',
+        'reference' => 'd5e3945e0174e9c2486cd558b8dafde48e18cbbb',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,18 +11,18 @@
     ),
     'versions' => array(
         'codeinwp/riverbank' => array(
-            'pretty_version' => 'v1.0.17',
-            'version' => '1.0.17.0',
-            'reference' => '28853a91d7ec6c7ac70a285040e69b65e5d6b1d7',
+            'pretty_version' => 'v1.0.18',
+            'version' => '1.0.18.0',
+            'reference' => 'd5e3945e0174e9c2486cd558b8dafde48e18cbbb',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
         'codeinwp/themeisle-sdk' => array(
-            'pretty_version' => '3.3.65',
-            'version' => '3.3.65.0',
-            'reference' => 'f650fe856d52ce4e5754557d89ba2f3127ad54d8',
+            'pretty_version' => '3.3.68',
+            'version' => '3.3.68.0',
+            'reference' => '8477d5100ffdddd316a3e51129d775d8854d8a77',
             'type' => 'library',
             'install_path' => __DIR__ . '/../codeinwp/themeisle-sdk',
             'aliases' => array(),
